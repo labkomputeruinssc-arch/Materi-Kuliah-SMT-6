@@ -40,4 +40,4 @@
 
 11. Pastikan Sudah Berhasil
 
-![alt text](image-11.png)
+<img width="1907" height="1079" alt="image" src="https://github.com/user-attachments/assets/b40ee0cd-8141-46eb-98e6-8c63c4c7520f" />
