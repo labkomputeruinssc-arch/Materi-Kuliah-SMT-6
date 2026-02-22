@@ -40,4 +40,4 @@
 
 11. Tanda Berhasil  https://ap-southeast-2.console.aws.amazon.com/console/home?region=ap-southeast-2
 
-![alt text](image-9.png)
+<img width="1907" height="1079" alt="image" src="https://github.com/user-attachments/assets/2cf6b0af-f3ff-4a9b-aa8d-202267b54669" />
