@@ -34,7 +34,11 @@
 
 ![alt text](Screenshot_2026-02-09-11-34-06-783_com.jago.digitalBanking.jpg)
 
-10. Konfirmasi bisa 3-5 
+10. Konfirmasi bisa 3-5
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/ef100f27-912a-4d5a-a2d7-efd954b0ff05" />
+
+
 
 ![alt text](image-8.png)
 
