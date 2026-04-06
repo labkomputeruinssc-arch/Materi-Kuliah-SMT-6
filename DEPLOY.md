@@ -25,36 +25,41 @@ Contoh: `13.215.xxx.xxx`
 ```bash
 ssh -i "nama-key.pem" ubuntu@<IP-PUBLIK-EC2>
 ```
-
+![alt text](image.png)
 ---
 
 ## Langkah 2 — Update Sistem & Install Dependensi
 
 ```bash
 sudo apt update && sudo apt upgrade -y
-sudo apt install -y curl git unzip apache2
 ```
-
+![alt text](image-1.png)
 ---
 
-## Langkah 3 — Install Node.js v20
+## Langkah 3 — Install Node.js v24
 
 ```bash
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
-node -v   # pastikan v20.x
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
+# in lieu of restarting the shell
+\. "$HOME/.nvm/nvm.sh"
+# Download and install Node.js:
+nvm install 24
+# Verify the Node.js version:
+node -v # Should print "v24.14.1".
+# Verify npm version:
+node -v   # pastikan v24.14
 npm -v
 ```
-
+![alt text](image-2.png)
 ---
 
 ## Langkah 4 — Install PM2 (Process Manager)
 
 ```bash
-sudo npm install -g pm2
+npm install -g pm2
 pm2 -v
 ```
-
+![alt text](image-3.png)
 ---
 
 ## Langkah 5 — Install & Konfigurasi MariaDB
@@ -121,10 +126,10 @@ DB_NAME=dbcompro
 DB_PORT=3306
 
 NEXTAUTH_SECRET=ganti-dengan-string-acak-panjang-minimal-32-karakter
-NEXTAUTH_URL=http://<IP-PUBLIK-EC2>
+NEXTAUTH_URL=http://localhost:3000/
 ```
 > Contoh `NEXTAUTH_URL=http://13.215.xxx.xxx`
-
+![alt text](image-4.png)
 ---
 
 ## Langkah 7 — Import Skema Database
