@@ -302,6 +302,13 @@ sudo systemctl status mariadb
 | Login gagal | Verifikasi data user dengan `SELECT * FROM users;` di MariaDB |
 | PM2 tidak jalan otomatis | Jalankan ulang `pm2 startup` dan salin perintah yang muncul |
 
+> Cara Unzip di Ubuntu AWS
+1. sudo apt install unzip -y
+### Extract file zip
+2. unzip nama_file.zip
+### Extract ke folder tertentu
+3. unzip nama_file.zip -d /path/tujuan/
+
 ---
 
 > **Catatan untuk Pengumpulan Tugas:**  
