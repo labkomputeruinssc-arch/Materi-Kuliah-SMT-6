@@ -27,9 +27,9 @@
 ![alt text](image-2.png)
 
 6. Membuat database dan User 
- - Membuat database untuk Web Company Profile (create database dbCompro;)
- - Membuat User untuk Web Company Profile (create user 'userCompro'@'localhost' identified by '********';)
- - Memberikan Hak Akses User untuk Web Company Profile (grant all privileges on dbCompro.* to 'userCompro'@'localhost';)
+ - Membuat database untuk Web Company Profile (create database dbcompro_nim;)
+ - Membuat User untuk Web Company Profile (create user 'userCompro'@'localhost' identified by 'passwordCompro';)
+ - Memberikan Hak Akses User untuk Web Company Profile (grant all privileges on dbcompro_nim.* to 'userCompro'@'localhost';)
  - Flush Privilege (flush privileges;)
  - Keluar dari MySQL (exit;)
 ![alt text](image-3.png)
@@ -37,5 +37,7 @@
 7. Login sebagai user baru
  - Masukan Command (mysql -u userCompro -p)
  - Masukan Password
- - Cek apakah database dbCompro sudah ada (show databases;)
+ - Cek apakah database dbcompro_nim sudah ada (show databases;)
+ - use dbcompro_nim;
 ![alt text](image-4.png)
+- Copy Paste Query SQL dari export dbcompro_nim di localhost

@@ -91,9 +91,9 @@ sudo mysql -u root -p
 
 Jalankan SQL berikut di dalam prompt MariaDB:
 ```sql
-CREATE DATABASE dbcompro CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+CREATE DATABASE dbcompro_nim CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 CREATE USER 'digitech_user'@'localhost' IDENTIFIED BY 'password_db_anda';
-GRANT ALL PRIVILEGES ON dbcompro.* TO 'digitech_user'@'localhost';
+GRANT ALL PRIVILEGES ON dbcompro_nim.* TO 'digitech_user'@'localhost';
 FLUSH PRIVILEGES;
 EXIT;
 ```
@@ -122,7 +122,7 @@ Isi file `.env` dengan konfigurasi berikut:
 DB_HOST=localhost
 DB_USER=digitech_user
 DB_PASSWORD=password_db_anda
-DB_NAME=dbcompro
+DB_NAME=dbcompro_nim
 DB_PORT=3306
 
 NEXTAUTH_SECRET=ganti-dengan-string-acak-panjang-minimal-32-karakter
@@ -135,13 +135,13 @@ NEXTAUTH_URL=http://localhost:3000/
 ## Langkah 7 — Import Skema Database
 
 ```bash
-mysql -u digitech_user -p dbcompro < sql/schema.sql
+mysql -u digitech_user -p dbcompro_nim < sql/schema.sql
 ```
 Masukkan `password_db_anda` saat diminta.
 
 Verifikasi data berhasil masuk:
 ```bash
-mysql -u digitech_user -p dbcompro -e "SHOW TABLES; SELECT username FROM users;"
+mysql -u digitech_user -p dbcompro_nim -e "SHOW TABLES; SELECT username FROM users;"
 ```
 
 ---
