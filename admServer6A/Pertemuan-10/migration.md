@@ -43,5 +43,5 @@ https://nodejs.org/en/download
 11. tambah / buka port 3000 di AWS Security Groups
 ![alt text](image-3.png)
 12. Akses http://[IP_ADDRESS]:3000
-13. akses BE edit berita ke 2 tambahkan nama - nim
+13. akses BE http://[IP_ADDRESS]:3000/admin edit berita ke 2 tambahkan nama - nim
 ![alt text](image-4.png)
