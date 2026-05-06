@@ -18,7 +18,7 @@
 ![alt text](image-2.png)
 8. Create DB untuk Website Company Profile
  - Login sebagai root
- - Create DB nama dbcompro_nim_NIM => CREATE DATABASE dbcompro_nim_NIM;
+ - Create DB nama dbcompro_NIM => CREATE DATABASE dbcompro_nim_NIM;
  ![alt text](image-3.png)
   - Create User dengan nama = usrcompro_NIM dan password = [PASSWORD] => CREATE USER 'usrcompro_NIM'@'localhost' IDENTIFIED BY '[PASSWORD]';
   ![alt text](image-4.png)

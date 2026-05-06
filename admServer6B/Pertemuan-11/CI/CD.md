@@ -55,4 +55,8 @@
 3. Sebelum melakukan commit dan Synch pada File
    - Pastikan sudah disable apache2 -> sudo systemctl disable apache2
    - Pastikan sudah stop apache2 -> sudo systemctl stop apache2
+   - Pastikan user ubuntu sudah ditambahkan ke docker -> sudo usermod -aG docker ubuntu
    - Baru lakukan Commit dan Push ke Github
+ ![alt text](image-1.png)
+ 4. Update tag Title  -> Nama - NIM
+ ![alt text](image-2.png)
