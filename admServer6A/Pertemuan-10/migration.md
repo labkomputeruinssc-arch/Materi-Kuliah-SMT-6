@@ -39,7 +39,7 @@ https://nodejs.org/en/download
   DB_PASS=[PASSWORD]
   DB_NAME=dbcompro_NIM
  - ctrl+x -> y -> Enter 
-10. pm2 start server.js
+10. pm2 start server.js 
 11. tambah / buka port 3000 di AWS Security Groups
 ![alt text](image-3.png)
 12. Akses http://[IP_ADDRESS]:3000
